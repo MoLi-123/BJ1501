@@ -19,6 +19,7 @@ class TestLogin:
         self.login = PageLogin()
         # 点击 弹窗
         self.login.page_close_alert()
+
         # 点击 我
         self.login.page_click_me()
         # 点击 已有账号，去登录
